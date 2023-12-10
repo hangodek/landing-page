@@ -61,5 +61,41 @@ body {
     background-color: #cecaca71;
 }
 
+/* Card 2 */
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 400px;
+    padding: 15px 200px;
+}
+
+.card2-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card2-items .border {
+    border: 2px solid blue;
+    border-radius: 10px;
+    height: 170px;
+    width: 170px;
+    font-size: 0px;
+}
+
+.card2-items .box {
+    width: 200px;
+}
+
+.card2-items .box .text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
 
 
